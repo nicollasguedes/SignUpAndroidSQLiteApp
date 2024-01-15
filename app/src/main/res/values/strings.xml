@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SignUpSQLiteApp</string>
+    <string name="email"><font size="18">E-mail</font></string>
+    <string name="password"><font size="18">Password</font></string>
+    <string name="confirmPass"><font size="18">Confirm Password</font></string>
+    <string-array name="sex_options">
+        <item>Género</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+</resources>

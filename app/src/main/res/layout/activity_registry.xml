@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sqlresbkg"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/res_email"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/lavender_border"
+                    android:drawableLeft="@drawable/baseline_email_24"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/email"
+                    android:padding="16dp" />
+
+                <ImageView
+                    android:id="@+id/res_user_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_user_image" />
+
+                <Button
+                    android:id="@+id/res_select_image_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="centerCrop"
+                    android:text="Selecionar Foto de Perfil" />
+
+                <EditText
+                    android:id="@+id/res_user_name"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:drawableLeft="@drawable/baseline_abc_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Nome de Usuario"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/res_name"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:drawableLeft="@drawable/baseline_abc_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Nome Completo"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/res_birth_date"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:drawableLeft="@drawable/baseline_date_range_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Data de Nascimento"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:padding="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/res_tipo_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="16dp">
+
+                    <CheckBox
+                        android:id="@+id/res_tipo_pf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pessoa Física"
+                        android:textColor="@color/white" />
+
+                    <CheckBox
+                        android:id="@+id/res_tipo_pj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pessoa Jurídica"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/res_cpf_cnpj"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:drawableLeft="@drawable/baseline_numbers_24"
+                    android:drawablePadding="8dp"
+                    android:hint="CPF/CNPJ"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:padding="16dp" />
+
+                <Spinner
+                    android:id="@+id/res_sex_spinner"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:padding="16dp"
+                    android:drawableLeft="@drawable/baseline_transgender_24"
+                    android:text="Genero" />
+
+                <EditText
+                    android:id="@+id/res_country"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:drawableLeft="@drawable/baseline_add_location_24"
+                    android:drawablePadding="8dp"
+                    android:hint="País"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:padding="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/res_tipo_radio_group_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <EditText
+                        android:id="@+id/res_address_city"
+                        android:layout_width="169dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/lavender_border"
+                        android:drawableLeft="@drawable/baseline_add_location_24"
+                        android:drawablePadding="8dp"
+                        android:hint="Cidade"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:padding="16dp" />
+
+                    <EditText
+                        android:id="@+id/res_address_state"
+                        android:layout_width="169dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/lavender_border"
+                        android:drawableLeft="@drawable/baseline_add_location_24"
+                        android:drawablePadding="8dp"
+                        android:hint="Estado"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:padding="16dp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/res_address"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/lavender_border"
+                    android:drawableLeft="@drawable/baseline_add_location_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Endereco"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:padding="16dp" />
+
+
+                <Button
+                    android:id="@+id/res_button"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Salvar"
+                    android:textSize="18sp"
+                    app:cornerRadius="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
