@@ -2,7 +2,7 @@
 
   <h2>Descrição</h2>
 
-  <p>SignUpSQLiteApp é um aplicativo Android de exemplo que demonstra o uso de SQLite para gerenciar registros de usuários, validação de formulários e funcionalidades básicas de autenticação. A aplicação possui funcionalidades como registro de usuários, login e um formulário de registro com validações.</p>
+  <p>SignUpSQLiteApp é um aplicativo Android que demonstra o uso de SQLite para gerenciar registros de usuários, validação de formulários e funcionalidades básicas de autenticação. A aplicação possui funcionalidades como registro de usuários, login e um formulário de registro com validações.</p>
 
   <h2>Pré-requisitos</h2>
 
