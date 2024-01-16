@@ -268,8 +268,10 @@ public class RegistryActivity extends AppCompatActivity {
             return false;
         }
 
-        if (nameEditText.getText().toString().isEmpty()) {
-            Toast.makeText(this, "Por favor, insira o nome.", Toast.LENGTH_SHORT).show();
+
+
+        if (nameEditText.getText().toString().isEmpty() || nameEditText.getText().toString().length() < 30) {
+            Toast.makeText(this, "Por favor, insira o nome um nome com pelo menos 30 caracteres", Toast.LENGTH_SHORT).show();
             return false;
         }
 
