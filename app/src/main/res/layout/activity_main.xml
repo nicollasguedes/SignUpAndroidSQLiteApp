@@ -89,49 +89,6 @@
                 android:layout_height="wrap_content"
                 android:stretchColumns="*">
 
-                <!-- Header da Tabela -->
-<!--                <TableRow>-->
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:padding="8dp"-->
-<!--                        android:text="ID"-->
-<!--                        android:textStyle="bold"-->
-<!--                        android:textColor="@color/white"/>-->
-
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:padding="8dp"-->
-<!--                        android:text="E-mail"-->
-<!--                        android:textStyle="bold"-->
-<!--                        android:textColor="@color/white"/>-->
-
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:padding="8dp"-->
-<!--                        android:text="Usuario"-->
-<!--                        android:textStyle="bold"-->
-<!--                        android:textColor="@color/white"/>-->
-
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:padding="8dp"-->
-<!--                        android:text="Nome"-->
-<!--                        android:textStyle="bold"-->
-<!--                        android:textColor="@color/white"/>-->
-
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:padding="8dp"-->
-<!--                        android:text="Genero"-->
-<!--                        android:textStyle="bold"-->
-<!--                        android:textColor="@color/white"/>-->
-
-<!--                </TableRow>-->
             </TableLayout>
         </LinearLayout>
     </ScrollView>
