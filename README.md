@@ -35,11 +35,11 @@ git clone https://github.com/seu-username/SignUpSQLiteApp.git
   <h2>Arquitetura Utilizada</h2>
   <p>O projeto segue a arquitetura clássica Model-View-Controller (MVC):</p>
   <h3>Model (DatabaseHelper)</h3>
-  <p>A classe DatabaseHelper interage diretamente com o banco de dados SQLite, gerenciando operações CRUD e validações relacionadas aos usuários.</p>
+  <p>O DatabaseHelper interage diretamente com o banco de dados SQLite, gerenciando operações CRUD e validações relacionadas aos usuários.</p>
   <h3>View (LoginActivity, SignUpActivity, RegistryActivity, MainActivity)</h3>
   <p>As classes de interface do usuário gerenciam a apresentação e interação do usuário. Elas utilizam vinculação de dados para conectar a interface ao código Java e interagem com o banco de dados.</p>
   <h3>Controller (SessionManager)</h3>
-  <p>A classe SessionManager atua como um controlador de sessão, gerenciando informações como email e ID do usuário, mantendo o estado da sessão entre atividades.</p>
+  <p>O SessionManager atua como um controlador de sessão, gerenciando informações como email e ID do usuário, mantendo o estado da sessão entre atividades.</p>
   <h3>Model e View (User)</h3>
   <p>A classe User representa o modelo de dados do usuário, facilitando a passagem de informações entre o banco de dados e as atividades de interface do usuário.</p>
   <h2>Como Contribuir</h2>
