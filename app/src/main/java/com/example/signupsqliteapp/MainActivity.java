@@ -123,50 +123,50 @@ public class MainActivity extends AppCompatActivity {
 
             TextView idTextView = new TextView(this);
             idTextView.setText(String.valueOf(user.getId()));
-            idTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f));// Peso 1
-            idTextView.setPadding(8, 8, 8, 8); // Adicione padding conforme necessário
+            idTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f));// Peso 1
+            idTextView.setPadding(32, 32, 32, 32); // Adicione padding conforme necessário
             idTextView.setSingleLine(true);
-            idTextView.setTextColor(Color.WHITE);
+            idTextView.setTextColor(Color.BLACK);
             row.addView(idTextView);
 
 
             TextView emailTextView = new TextView(this);
             String emailTextViewString = user.getEmail() != null ? user.getEmail() : "Nulo";
             emailTextView.setText(emailTextViewString);
-            emailTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
-            emailTextView.setPadding(8, 8, 8, 8);
+            emailTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
+            emailTextView.setPadding(32, 32, 32, 32);
             emailTextView.setSingleLine(true);
-            emailTextView.setTextColor(Color.WHITE);
+            emailTextView.setTextColor(Color.BLACK);
             row.addView(emailTextView);
 
 
             TextView usernameTextView = new TextView(this);
             String usernameTextViewString = user.getUsername() != null ? user.getUsername() : "Nulo";
             usernameTextView.setText(usernameTextViewString);
-            usernameTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
-            usernameTextView.setPadding(8, 8, 8, 8);
+            usernameTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
+            usernameTextView.setPadding(32, 32, 32, 32);
             usernameTextView.setSingleLine(true);
-            usernameTextView.setTextColor(Color.WHITE);
+            usernameTextView.setTextColor(Color.BLACK);
             row.addView(usernameTextView);
 
 
             TextView nomeTextView = new TextView(this);
             String nomeTextViewString = user.getNome() != null ? user.getNome() : "Nulo";
             nomeTextView.setText(nomeTextViewString);
-            nomeTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
-            nomeTextView.setPadding(8, 8, 8, 8);
+            nomeTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
+            nomeTextView.setPadding(32, 32, 32, 32);
             nomeTextView.setSingleLine(true);
-            nomeTextView.setTextColor(Color.WHITE);
+            nomeTextView.setTextColor(Color.BLACK);
             row.addView(nomeTextView);
 
 
             TextView sexoTextView = new TextView(this);
             String sexoTextViewString = user.getSexo() == 1 ? "Masculino" : (user.getSexo() == 2 ? "Feminino" : "Nulo");
             sexoTextView.setText(sexoTextViewString);
-            sexoTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f)); // Peso 1
-            sexoTextView.setPadding(8, 8, 8, 8);
+            sexoTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f)); // Peso 1
+            sexoTextView.setPadding(32, 32, 32, 32);
             sexoTextView.setSingleLine(true);
-            sexoTextView.setTextColor(Color.WHITE);
+            sexoTextView.setTextColor(Color.BLACK);
             row.addView(sexoTextView);
 
 
@@ -253,50 +253,50 @@ public class MainActivity extends AppCompatActivity {
 
         TextView idTextView = new TextView(this);
         idTextView.setText(String.valueOf(user.getId()));
-        idTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f));// Peso 1
-        idTextView.setPadding(8, 8, 8, 8); // Adicione padding conforme necessário
+        idTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f));// Peso 1
+        idTextView.setPadding(32, 32, 32, 32); // Adicione padding conforme necessário
         idTextView.setSingleLine(true);
-        idTextView.setTextColor(Color.WHITE);
+        idTextView.setTextColor(Color.BLACK);
         row.addView(idTextView);
 
 
         TextView emailTextView = new TextView(this);
         String emailTextViewString = user.getEmail() != null ? user.getEmail() : "Nulo";
         emailTextView.setText(emailTextViewString);
-        emailTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
-        emailTextView.setPadding(8, 8, 8, 8);
+        emailTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
+        emailTextView.setPadding(32, 32, 32, 32);
         emailTextView.setSingleLine(true);
-        emailTextView.setTextColor(Color.WHITE);
+        emailTextView.setTextColor(Color.BLACK);
         row.addView(emailTextView);
 
 
         TextView usernameTextView = new TextView(this);
         String usernameTextViewString = user.getUsername() != null ? user.getUsername() : "Nulo";
         usernameTextView.setText(usernameTextViewString);
-        usernameTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
-        usernameTextView.setPadding(8, 8, 8, 8);
+        usernameTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
+        usernameTextView.setPadding(32, 32, 32, 32);
         usernameTextView.setSingleLine(true);
-        usernameTextView.setTextColor(Color.WHITE);
+        usernameTextView.setTextColor(Color.BLACK);
         row.addView(usernameTextView);
 
 
         TextView nomeTextView = new TextView(this);
         String nomeTextViewString = user.getNome() != null ? user.getNome() : "Nulo";
         nomeTextView.setText(nomeTextViewString);
-        nomeTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
-        nomeTextView.setPadding(8, 8, 8, 8);
+        nomeTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 2f)); // Peso 2
+        nomeTextView.setPadding(32, 32, 32, 32);
         nomeTextView.setSingleLine(true);
-        nomeTextView.setTextColor(Color.WHITE);
+        nomeTextView.setTextColor(Color.BLACK);
         row.addView(nomeTextView);
 
 
         TextView sexoTextView = new TextView(this);
         String sexoTextViewString = user.getSexo() == 1 ? "Masculino" : (user.getSexo() == 2 ? "Feminino" : "Nulo");
         sexoTextView.setText(sexoTextViewString);
-        sexoTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f)); // Peso 1
-        sexoTextView.setPadding(8, 8, 8, 8);
+        sexoTextView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f)); // Peso 1
+        sexoTextView.setPadding(32, 32, 32, 32);
         sexoTextView.setSingleLine(true);
-        sexoTextView.setTextColor(Color.WHITE);
+        sexoTextView.setTextColor(Color.BLACK);
         row.addView(sexoTextView);
         tableLayout.addView(row);
     }
@@ -308,7 +308,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView idHeader = createHeaderTextView("ID");
         tableHeader.addView(idHeader);
-
         TextView emailHeader = createHeaderTextView("E-mail");
         tableHeader.addView(emailHeader);
 
@@ -328,9 +327,9 @@ public class MainActivity extends AppCompatActivity {
     private TextView createHeaderTextView(String text) {
         TextView textView = new TextView(this);
         textView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
-        textView.setPadding(8, 8, 8, 8);
+        textView.setPadding(32, 32, 32, 32);
         textView.setText(text);
-        textView.setTextColor(getResources().getColor(R.color.white));
+        textView.setTextColor(getResources().getColor(R.color.black));
         textView.setTypeface(null, Typeface.BOLD);
         return textView;
     }
